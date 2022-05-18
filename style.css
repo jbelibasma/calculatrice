@@ -1,0 +1,41 @@
+body{
+    background-color: pink;
+    cursor: pointer;
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+table{
+    border: 2px solid black;
+    margin-left: 8px;
+}
+div{
+    background-color: black;
+    border: 5px solid black;
+    width: 300px;
+}
+td{
+    border: 1px solid black;
+    padding: 17px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+
+}
+td:active{
+    transform: translateY(2px);
+}
+
+.ecran{
+    background-color: rgb(224, 221, 221);
+    margin-left: 9px;
+    width: 250px;
+    height: 30px;
+    padding: 15px;
+    text-align: right;
+}
+.clear{
+    background-color: brown;
+}
